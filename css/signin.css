@@ -1,0 +1,173 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.container{
+	font-family:roboto,"Open Sans",poppins,sans-serif;
+	color:#5A5A5A;
+}
+
+.logo{
+	font-family:Italiana,"Playfair Display", "Times New Roman",serif;
+	font-size:40px;
+	font-weight:bold;
+	flex-grow:4;
+	align-self:center;
+	margin-left:30px;
+	color:black;	
+}
+
+.navigation{
+	font-size:18px;
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:flex-start;
+	background-color:white;
+	position:fixed;
+	border-bottom:2px solid #5A5A5A;
+}
+
+.navlinks{
+	flex-grow:1;
+}
+
+.navlinks ul{ width:80%;
+	display:flex;
+	justify-content:space-between;
+	padding:20px;
+}
+ul li{
+	list-style-type:none;
+	
+}
+ul li a{
+	text-decoration:none;
+	color:#5A5A5A;
+}
+.navlinks ul li a:hover{
+	background:black;
+	color:white;
+	padding:10px;
+	transition:0.25s ease-in-out;
+}
+.content{
+	height:450px;
+	position:relative;
+	top:140px;
+}
+.content h1{
+	text-align:center;
+	margin:8px;
+}
+.content a{
+	color:black;
+	text-decoration:none;
+}
+.content a:hover{
+	color:white;
+	background-color:black;
+	padding:10px;
+	transition:0.25s ease-in-out;
+}
+
+#uname,#mail{
+	width:250px;
+	padding:8px;
+	position:relative;
+	left:300px;
+	border:none;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding-left:30px;
+	background-color:rgba(0,0,0,0.1);
+	color:white;
+}
+.content placeholder{
+	color:white;
+}
+[for="checkbox"]{
+	position:relative;
+	left:300px;
+}
+#checkbox,button{
+	position:relative;
+	left:300px;	
+}
+.content button{
+	width:60px;
+	padding:5px;
+	border:none;
+	background-color:rgba(0,0,0,0.1);
+}
+.content button:hover{
+	background-color:black;
+	color:white;
+	padding:5px;
+}
+
+.footer{
+	width:100%;
+	display:flex;	
+	flex-wrap:wrap;
+	justify-content:space-around;
+	align-items:center;
+	height:180px;
+	background-color:#5A5A5A;
+	color:white;
+	padding:10px 0px 10px 0px;
+}
+
+.footer ul li{
+	padding:5px;
+}
+
+.footer ul li a{
+	color:white;
+}
+
+.footer ul li a:hover{
+	background:white;
+	color:#5A5A5A;
+	padding:5px;
+    transition:0.25s ease-in-out;
+}
+
+.footer h4{
+	padding:5px;
+}
+
+.flexcenter{
+	flex-grow:1;
+}
+.flexright{
+	flex-grow:1;
+}
+.subscriber{
+	flex-grow:1;
+}
+#email{
+	width:200px;
+	padding:5px;
+	border:none;
+    border-radius:10px;
+	margin-right:3px;
+}
+#subscribe{
+	width:80px;
+	padding:5px;
+	border:none;
+    border-radius:10px;
+}
+#subscribe:hover{
+	background-color:black;
+	color:white;
+}
+.footer p{
+	width:100%;
+	margin-top:10px;
+	margin-left:10px;
+	
+}
